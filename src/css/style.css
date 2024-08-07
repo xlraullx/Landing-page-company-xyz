@@ -16,6 +16,8 @@ body{
     font-weight: 400;
 }
 
+/* header */
+
 .header{
     grid-area: header;
 }
@@ -37,6 +39,8 @@ body{
 .header a:hover h1{
     color: coral;
 }
+
+/* hero */
 
 .hero{
     grid-area: hero;
@@ -77,6 +81,8 @@ body{
         font-size: 2.5rem;
     }
 } 
+
+/* about */
 
 .about{
     grid-area: about;
@@ -139,15 +145,58 @@ body{
     }
 }
 
+/* services */
+
 .services{
     grid-area: services;
-    background-color: cyan;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
 }
+
+.services .service{
+    padding: 70px 20px;
+}
+
+.services .service img{
+    margin-bottom: 30px;
+}
+
+.services .service h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.services .service p{
+    font-size: 2rem;
+    font-weight: 400;
+    max-width: 400px;
+    margin: 20px auto 0;
+    line-height: 25px;
+}
+
+.services .service:nth-child(1){
+    background-color: lightskyblue;
+}
+
+.services .service:nth-child(2){
+    background-color: lightpink;
+}
+
+@media (max-width: 425px){
+    .services{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* projects */
 
 .projects{
     grid-area: projects;
     background-color: darkmagenta;
 }
+
+/* footer */
 
 .footer{
     grid-area: footer;
