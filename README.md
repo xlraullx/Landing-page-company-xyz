@@ -20,7 +20,7 @@ uma experiência muito agradável ver todo o progresso da landing page sendo fei
   
 ## Resolução do exercício
 
-- Site da resolução:
+- Site da resolução: https://xlraullx.github.io/Landing-page-company-xyz/
 
 ## Contato
 <p align="center">
